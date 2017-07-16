@@ -233,6 +233,19 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 10px;
   }
 }
+#whitelogo{
+  position:fixed;
+  left:1%;
+  top:1%;
+  height:200px;
+  margin:0;
+  padding:0;
+}
+@media screen and (max-width: 768px) {
+  #whitelogo{
+    display: none;
+  }
+}
 #fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
   font-size: 20px;
